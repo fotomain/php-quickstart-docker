@@ -1,11 +1,5 @@
 # php-docker-quickstart
 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/fotomain/php-quickstart-docker.git
-git push -u origin main
 
 A project template that works with PhpStorm and Docker for PHP for 
 development.
