@@ -1,6 +1,6 @@
 <?php
 
-echo "Hi 222";
+echo "Hi 555";
 
 $servername = "srv1503.hstgr.io";
 $username = "u235058084_sw_user";
