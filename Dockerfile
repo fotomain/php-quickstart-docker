@@ -8,7 +8,7 @@ RUN docker-php-ext-install pdo pdo_mysql
 WORKDIR /var/www/html
 
 # Copy the PHP file into the container's web directory
-COPY /app/html/*.* /var/www/html/
+COPY /app/html/ /var/www/html/
 
 # Set the ServerName to suppress the warning about Apache's domain name
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf

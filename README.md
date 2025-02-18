@@ -1,5 +1,10 @@
 # php-docker-quickstart
 
+RUN
+http://localhost:8088/index.php
+http://localhost:8088/graphql.php
+
+
 git init
 git remote add origin https://github.com/fotomain/php-quickstart-docker.git
 git add .
