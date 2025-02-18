@@ -20,7 +20,7 @@ class QueryType extends ObjectType
                             'id'=>Types::int()
                         ],
                         'resolve'=> function ($root, $args) {
-                            echo $args['id'];
+//                            echo $args['id'];
 //                            return DB::selectOne("SELECT * FROM products_table WHERE id = 2 ");
                             return DB::selectOne("SELECT * FROM products_table WHERE id = {$args['id']}");
                         }
